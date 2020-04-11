@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=spring_jpa_demo;
+    password: A123456b
+    username: sa
+    driver-class-name: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    hibernate:
+      ddl-auto: update
