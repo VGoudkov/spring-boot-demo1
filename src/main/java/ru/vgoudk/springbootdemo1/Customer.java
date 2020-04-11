@@ -23,6 +23,14 @@ public class Customer {
         this.lastName = lastName;
     }
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 
     @Override
     public boolean equals(Object o) {
